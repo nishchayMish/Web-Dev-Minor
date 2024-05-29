@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(32, 40%, 72%);
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    border-radius: 15px;
+    height: 350px;
+    width: 600px;
+}
+
+.content{
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px;
+    background-color:white;
+}
+
+.desc{
+    margin-top: 15px;
+}
+
+.content h3{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.content h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.image img{
+    border-radius: 15px 0px 0px 15px;
+    height: 100%;
+    width: 280px;
+}
+
+.content p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: gray;
+}
+
+.prices{
+    display: flex;
+    gap: 10px;
+}
+
+.prices h3{
+    color: hsl(158, 63%, 43%);
+    font-weight: 800;
+}
+
+.prices h4{
+    margin-top: 6px;
+    color: gray;
+}
+
+.desc img{
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.desc button{
+    padding: 5px;
+    background-color: hsl(158, 76%, 47%);
+    color: white;
+    font-weight: 800;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(158, 76%, 32%);
+}
+
+/* @media screen and (max-width: 605px) {
+    .wrapper {
+      background-color: black;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    
+}  */
+    

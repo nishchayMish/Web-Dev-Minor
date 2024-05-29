@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.headDesc{
+    margin-left: 30%;
+    text-align: center;
+    width: 40%;
+    color: gray;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.card1{
+    /* border: 3px solid black; */
+    height: 380px;
+    width: 270px;
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgb(74, 69, 69);
+}
+
+.card1:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+a img{
+    width: 100%;
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card1 .desc{
+    padding: 15px;
+}
+
+.desc{
+    line-height: 30px;
+}
+
+.desc p{
+    color: gray;
+    line-height: 20px;
+}
+
+.foot{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.foot img{
+    height: 30px;
+    width: 30px;
+}
+
+.foot h5{
+    margin-right: 30px;
+    line-height: 18px;
+}
+
+.foot button{
+    background-color: blueviolet;
+    color: wheat;
+    padding: 10px;
+    font-weight: 550;
+    border-radius: 3px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(81, 25, 133);
+}
+
+#card2 a{
+    height: 191px;
+    border: 2px solid black;
+}
